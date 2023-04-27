@@ -1,0 +1,40 @@
+.card__dias {
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    opacity: 0.15;
+    background-color: azure;
+}
+
+#temp {
+    font-size: 60px;
+    margin-left: 30px;
+    top: 37%;
+}
+
+.card {
+    margin: 20px auto;
+}
+
+body {
+    background: rgb(126, 246, 240);
+    background: linear-gradient(30deg, rgba(126, 246, 240, 1) 33%, rgba(198, 255, 252, 1) 70%, rgba(250, 255, 200, 1) 86%, rgba(240, 255, 87, 1) 96%);
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.form-switch.form-switch-lg .form-check-input {
+    height: 2rem;
+    width: calc(3rem + 0.75rem);
+    border-radius: 4rem;
+}
+
+#toggle{
+    padding-top: 20px;
+}
