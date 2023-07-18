@@ -1,0 +1,30 @@
+.principal{
+    width: 55rem;
+    height: 30rem;
+}
+
+.presupuesto{
+    width: 20rem;
+    height: 8rem;    
+}
+
+.gasto{
+    width: 20rem;
+}
+
+.btn{
+    width: 5rem;
+}
+
+.btn-añadir{
+    width: 8rem;
+}
+
+.valor--li{
+    margin-left: 50px;
+}
+
+hr{
+    margin: 0;
+    border: 2px solid black;
+}

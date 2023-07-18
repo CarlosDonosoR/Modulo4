@@ -1,0 +1,21 @@
+
+body{
+    background-color: #87a5c0;
+}
+
+.hr{
+    border-width: 4px;
+    color: #87a5c0 ;
+    position: relative;
+    left: 12px;
+    z-index: 1;
+    top:30px;
+}
+
+.icon{
+    color: #87a5c0;
+}
+
+.section{
+    height: 300px;
+}

@@ -1,0 +1,46 @@
+.navbar{
+    height: 80px;
+}
+
+.select--size{
+    width: 50%;
+}
+
+.img--body{
+    width: 500px;
+    height: 500px;
+    background-color: #ededed;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.img--text{
+    opacity: 0.5;
+}
+
+#card--body{
+    display: none;
+}
+
+.injected{
+    visibility: hidden;
+    background-color:rgba(16,16,16,0.2);
+    color:white;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img{
+    position: relative;
+}
+
+#img:hover .injected{
+    visibility: visible;
+    opacity: 1;
+}

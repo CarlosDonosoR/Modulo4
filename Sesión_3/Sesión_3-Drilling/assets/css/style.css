@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100vh;
+}
+
+.body {
+    background: rgb(231, 230, 230);
+    border-radius: 10px;
+    margin: 20px auto;
+    height: 70%;
+    width: 20%;
+    box-shadow: -5px 4px 17px -2px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.body i {
+    color: rgb(208, 208, 208);
+    position: relative;
+    top: 0rem;
+    font-size: 1.875rem;
+}
+
+.body__title {
+    font-size: 3.125rem;
+    font-family: Verdana;
+    font-weight: 500;
+    margin: 1.25rem;
+    text-align: center;
+}
+
+.body__off {
+    background-color: cadetblue;
+    width: 100%;
+    text-align: center;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__off--per {
+    color: gold;
+    font-size: 4.375rem;
+    font-family: verdana;
+    font-weight: 700;
+}
+
+.body__off--text {
+    color: gold;
+    font-size: 1.25rem;
+}
+
+.text {
+    margin: 0.625rem;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+.text__p span {
+    font-weight: 700;
+}
+
+.check label {
+    color: goldenrod;
+    margin: 0.3125rem;
+}
+
+.code{
+    background-color: cadetblue;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.code p{
+    color: goldenrod;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#codigo{
+    color: gold;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.625rem;
+}

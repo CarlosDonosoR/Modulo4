@@ -1,0 +1,12 @@
+.card{
+    width: 35rem;
+    height: 20rem;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.placeholder--text::placeholder{
+    color: gray;
+}
